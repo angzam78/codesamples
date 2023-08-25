@@ -5,11 +5,11 @@
 
 using System.Collections.Generic;
 
-public class LevenshteinDistance
+public class LevenshteinDist
 {
     private IEnumerable<string> words;
 
-    public Kata(IEnumerable<string> words)
+    public LevenshteinDist(IEnumerable<string> words)
     {
         this.words = words;
     }
